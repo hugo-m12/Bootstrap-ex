@@ -141,7 +141,6 @@ html, body {
   .container2 p{
     font-size: larger;
     text-wrap: wrap;
-    text-align: right;
   }
 
   .readmore{
@@ -256,4 +255,71 @@ html, body {
 
   .loremsection button{
     margin-top: 10px;
+  }
+
+  .flexbox{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section2 h1{
+    color: #0540F2;
+    font-weight: bold;
+    text-wrap: wrap;
+    text-align: center;
+    font-size: 400%;
+    margin: 0;
+  }
+
+
+  .section2 {
+    margin-bottom: 70px;
+  }
+
+  .section2 p{
+    text-align: center;
+    text-wrap: wrap;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0;
+  }
+
+  .blueretangle{
+    width: 397.31px;
+    height: 182px;
+    border: 1px solid;
+    border-radius: 25px;
+    background-color: #0540F2;
+    color: white;
+    align-items: center; 
+    display: flex;
+    box-sizing: border-box;
+  }
+
+  .blueretangle h2{
+    margin: 0;
+  }
+
+  .blueretangle img {
+    margin-right: 20px;
+    margin-left: 25px;
+  }
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+  .flexbox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+  }
+
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
   }
