@@ -1,0 +1,259 @@
+html, body {
+    font-family: "Quattrocento Sans", sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 600px;
+    max-height: 600px;
+  }
+
+.img-bg img{
+    filter: brightness(50%);
+    width: 100%;
+    height: 100%;
+  }
+
+  .buttons{
+    display: flex;
+    gap: 100px;
+    position: relative;
+    bottom: 878px;
+    left: 635px;
+    width: 700px;
+  }
+
+  .button-1{
+    background-color: #0540F2;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 290px;
+    height: 50px;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+  }
+
+  .button-2{
+    color: white;
+    background-color: transparent;
+    border-radius: 30px;
+    width: 290px;
+    height: 50px;
+    font-size: large;
+    font-weight: bolder;
+    border: 1px solid white;
+  }
+
+  .header-links{
+    display: flex;
+    color: white;
+    gap: 20px;
+    position: relative;
+    top: 100px;
+    left: 290px;
+    z-index: 10;
+    width: 1190px;
+  }
+  .header-links1{
+    display: flex;
+    color: white;
+    gap: 20px;
+    position: relative;
+    z-index: 10;
+    right: 170px;
+  }
+
+  .header-links2{
+    display: flex;
+    color: white;
+    gap: 20px;
+    position: relative;
+    left: 860px;
+    z-index: 10;
+  }
+
+  header{
+    margin-bottom: 0;
+  }
+
+  .header-main{
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    left: 365px;
+    bottom: 7px;
+    z-index: 10;
+    font-size: larger;
+  }
+
+  .main-text{
+    position: relative;
+    color: white;
+    bottom: 965px;
+    left: 20px;
+    z-index: 10;
+  }
+
+  .main-text p{
+    font-size: 160px;
+    font-weight: bold;
+    text-wrap: wrap;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .sub-text h3{
+    text-align: center;
+    text-wrap: wrap;
+    font-size: 25px;
+    color: white;
+  }
+  .sub-text{
+    z-index: 10;
+    position: relative;
+    bottom: 975px;
+    left:40px;
+  }
+
+  .container2{
+    background-color: #EAEAEA;
+    margin: 0 auto;
+  }
+
+  .readmore h1{
+    color: #0540F2;
+    font-weight: bold;
+    text-align: left;
+    text-wrap: balance;
+    font-size: 400%;
+    position: relative;
+    left: 109px;
+  }
+
+  .readmore p{
+    position: relative;
+    Top: 80px;
+    right: 310px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .container2 p{
+    font-size: larger;
+    text-wrap: wrap;
+    text-align: right;
+  }
+
+  .readmore{
+    display: flex;
+    gap: 95px;
+    margin-top: 20px;
+  }
+
+  .castle-img img{
+    border-radius: 5%;
+    border: 1px transparent;
+    position: relative;
+    left: 113px;
+  }
+  .build-img img{
+    border-radius: 5%;
+    border: 1px transparent;
+    position: relative;
+    right: 14px;
+    height: 50%;
+    width: 100%;
+  }
+  .flex{
+    display: flex;
+    gap: 20px;
+    z-index: 20;
+  }
+
+  .rectangle{
+    width: 177px;
+    height: 168px;
+    z-index: 20;
+    background-color: white;
+    border-radius: 5%;
+    position: relative;
+    top: 150px;
+    border: 1px transparent;
+    font-size: large;
+    left: 50px;
+    text-align: center;
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rectangle h3{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .rectangle span{
+    color: blue;
+  }
+
+  .rectangle img{
+    width: 114px;
+    height: 55px;
+    position: relative;
+  }
+
+  .flexc{
+    flex-direction: column;
+    position: relative;
+    bottom: 170px;
+    gap: 20px;
+  }
+
+  .rectangle2{
+    width: 177px;
+    height: 100px;
+    z-index: 20;
+    background-color: white;
+    border-radius: 5%;
+    position: relative;
+    top: 150px;
+    border: 1px transparent;
+    font-size: large;
+    left: 50px;
+    text-align: center;
+    margin-bottom: 55px;
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rectangle2 h3{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .rectangle2 span{
+    color: blue;
+  }
+
+  .loremsection{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 448px;
+    Bottom: 72px;
+  }
+
+  .loremsection p{
+    text-align: left;
+    font-size: large;
+    text-wrap: stable;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .loremsection button{
+    margin-top: 10px;
+  }
