@@ -2,8 +2,6 @@ html, body {
     font-family: "Quattrocento Sans", sans-serif;
     margin: 0 auto;
     padding: 0;
-    min-height: 600px;
-    max-height: 600px;
   }
 
 .img-bg img{
@@ -107,6 +105,8 @@ html, body {
     text-wrap: wrap;
     font-size: 25px;
     color: white;
+    margin-bottom: 0;
+    margin-top: 0;
   }
   .sub-text{
     z-index: 10;
@@ -322,4 +322,152 @@ html, body {
     justify-content: center;
     align-items: center;
     margin-top: 70px;
+    margin-bottom: 70px;
   }
+
+  .flex-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .flex-right i{
+    color:#0540F2;
+    font-size: xx-large;
+    margin-right: 20px;
+    padding: 0;
+  }
+
+  .flex-right button{
+    margin-top: 70px;
+  }
+
+  .content-wrapper {
+    display: flex;
+    align-items: start; 
+    justify-content: space-around;
+}
+
+.flex2{
+  display: flex;
+  align-items: center;
+}
+
+.flex2 h3{
+  font-weight: bolder;
+}
+
+.container3{
+  background-color: #0540F2;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.section3 h1{
+  color: white;
+  font-weight: bold;
+  text-wrap: wrap;
+  text-align: center;
+  font-size: 400%;
+  margin: 0;
+}
+
+.mySlides{
+  display: none;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.section3 {
+  margin-bottom: 70px;
+  margin-top: 40px;
+  padding: 40px;
+}
+
+.section3 p{
+  color: white;
+  text-align: center;
+  text-wrap: wrap;
+  font-weight: bold;
+  font-size: x-large;
+  margin: 0;
+}
+
+.img-card{
+  background-color: white;
+  width: 397.42px;
+  height: 622px;
+  border: 1px ;
+  border-radius: 5%;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.img-card h3{
+  color: #0540F2;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.img-card button{
+  margin-left: 30px;
+}
+
+.img-card p{
+  font-weight: bold;
+  padding: 10px;
+}
+
+.img-card img{
+  width: 397.42px;
+  height: 280px;
+  margin-bottom: 30px;
+}
+
+.footer-container{
+  background-color: #0540F2;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+
+.footer-container h1{
+  padding: 50px;
+  font-weight: bold;
+}
+
+.footer-container p{
+ margin: 0;
+ padding-left: 50px;
+}
+
+.footer-flex h3 {
+  margin-bottom: 10px; 
+}
+
+.footer-flex{
+  display: flex;
+  justify-content: inherit;
+  margin-right: 20px;
+  align-items: flex-start;
+  padding: 80px; 
+}
+
+.links {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px; 
+  margin-right: 50px;
+}
