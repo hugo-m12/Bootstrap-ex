@@ -83,6 +83,10 @@ html, body {
     font-size: larger;
   }
 
+  .header-main h1{
+    font-weight: bold;
+  }
+
   .main-text{
     position: relative;
     color: white;
