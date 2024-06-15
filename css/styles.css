@@ -30,6 +30,7 @@ html, body {
     font-size: large;
     font-weight: bolder;
     color: white;
+    cursor: pointer;
   }
 
   .button-2{
@@ -41,7 +42,18 @@ html, body {
     font-size: large;
     font-weight: bolder;
     border: 1px solid white;
+    cursor: pointer;
   }
+
+  .button-1:hover{
+    background-color: blue;
+  }
+
+  .button-2:hover{
+    background-color: white;
+    color: black;
+  }
+
 
   .header-links{
     display: flex;
@@ -300,6 +312,11 @@ html, body {
     align-items: center; 
     display: flex;
     box-sizing: border-box;
+    cursor: pointer;
+  }
+
+  .blueretangle:hover{
+    scale: 110%;
   }
 
   .blueretangle h2{
