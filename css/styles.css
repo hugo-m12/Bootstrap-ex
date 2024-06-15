@@ -4,6 +4,8 @@ html, body {
     padding: 0;
   }
 
+
+
 .img-bg img{
     filter: brightness(50%);
     width: 100%;
@@ -70,7 +72,7 @@ html, body {
   }
 
   header{
-    margin-bottom: 0;
+    max-height: 1321px;
   }
 
   .header-main{
@@ -467,6 +469,10 @@ html, body {
   padding: 80px; 
 }
 
+.links h3{
+  margin-left: auto;
+}
+
 .links {
   display: flex;
   flex-direction: column; 
@@ -474,4 +480,32 @@ html, body {
   align-items: flex-start;
   gap: 30px; 
   margin-right: 50px;
+}
+
+.readmore2 h1{
+  color: #0540F2;
+  font-weight: bold;
+  text-align: left;
+  text-wrap: balance;
+  font-size: 400%;
+  position: relative;
+  left: 109px;
+}
+
+.readmore2 p{
+  position: relative;
+  text-align: left;
+  font-weight: bold;
+}
+
+.readmore2{
+  display: flex;
+  gap: 95px;
+  margin-top: 20px;
+}
+
+.readmorebutton{
+  position: relative;
+  bottom: 91px;
+  left: 1559px;
 }
