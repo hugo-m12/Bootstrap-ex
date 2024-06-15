@@ -14,8 +14,8 @@ html, body {
     display: flex;
     gap: 100px;
     position: relative;
-    bottom: 878px;
-    left: 635px;
+    bottom: 977px;
+    left: 630px;
     width: 700px;
   }
 
@@ -47,7 +47,7 @@ html, body {
     gap: 20px;
     position: relative;
     top: 100px;
-    left: 290px;
+    left: 250px;
     z-index: 10;
     width: 1190px;
   }
@@ -90,7 +90,7 @@ html, body {
   .main-text{
     position: relative;
     color: white;
-    bottom: 965px;
+    bottom: 1037px;
     left: 20px;
     z-index: 10;
   }
@@ -115,7 +115,7 @@ html, body {
   .sub-text{
     z-index: 10;
     position: relative;
-    bottom: 975px;
+    bottom: 1037px;
     left:40px;
   }
 
