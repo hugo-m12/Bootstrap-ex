@@ -4,7 +4,9 @@ html, body {
     padding: 0;
   }
 
-
+  a{
+    text-decoration: none;
+  }
 
 .img-bg img{
     filter: brightness(50%);
@@ -261,6 +263,7 @@ html, body {
     position: relative;
     right: 448px;
     Bottom: 72px;
+    padding-top: 50px;
   }
 
   .loremsection p{
@@ -313,6 +316,7 @@ html, body {
     display: flex;
     box-sizing: border-box;
     cursor: pointer;
+    transition: scale 0.5s ease;
   }
 
   .blueretangle:hover{
