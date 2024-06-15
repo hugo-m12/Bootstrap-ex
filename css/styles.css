@@ -530,3 +530,9 @@ html, body {
   bottom: 91px;
   left: 1559px;
 }
+
+.footer-text{
+  position: relative;
+  top: 150px;
+  right: 345px;
+}
