@@ -193,8 +193,11 @@
     <div class="w3-content w3-display-container">
         <div class="image-container">
             <img class="mySlides" src="Img/icon1.png" style="width:20%">
+            <div id="text1" class="text-slide"> Roderick Fraser - IT Engineer </div>
             <img class="mySlides" src="img/icon2.png" style="width:20%">
+            <div id="text2" class="text-slide"> Cedric Shari - Researcher </div>
             <img class="mySlides" src="img/icon3.png" style="width:20%">
+            <div id="text3" class="text-slide"> Eileen Paisley - UX-Design </div>
         </div>
         <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
@@ -287,22 +290,25 @@
 </div>
 <script>
     var slideIndex = 1;
-    showDivs(slideIndex);
-    
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var texts = document.querySelectorAll(".text-slide"); 
+    if (n > slides.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+        texts[i].style.display = "none"; 
     }
-    
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      if (n > x.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = x.length}
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
-      }
-      x[slideIndex-1].style.display = "block";  
-    }
+    slides[slideIndex-1].style.display = "block";  
+    texts[slideIndex-1].style.display = "block"; 
+}
     </script>
 </body>
 </html>
