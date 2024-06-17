@@ -87,6 +87,7 @@ html, body {
 
   header{
     max-height: 1321px;
+    margin-top: -74px;
   }
 
   .header-main{
@@ -291,8 +292,6 @@ html, body {
     font-size: 400%;
     margin: 0;
   }
-
-
   .section2 {
     margin-bottom: 70px;
   }
@@ -389,8 +388,6 @@ html, body {
   width: 100%;
   height: 100%;
 }
-
-
 
 .section3 h1{
   color: white;
@@ -491,7 +488,7 @@ html, body {
 }
 
 .links h3{
-  margin-left: auto;
+  margin-left: 47px;
 }
 
 .links {
